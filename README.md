@@ -35,3 +35,26 @@ The FloodNet challenge involves three distinct tasks:
 3. **Visual Question Answering (VQA)** – Answer a set of questions related to the input image.
 
 The results for these tasks can be explored through the accompanying **Streamlit dashboard**.
+
+# Model Testing
+
+To evaluate the trained models, we utilize the **Streamlit dashboard**.  
+Follow these steps to test any model:
+
+1. **Launch the Streamlit application** on your local machine:
+   ```bash
+   streamlit run app.py
+   ```
+
+2. **Upload the chosen model** (e.g., the trained `.pth` or `.pt` file) using the dashboard’s upload interface.
+
+3. **Select the task** (Image Classification, Segmentation, or VQA).
+
+4. **Upload the input images** for testing or use the provided sample images.
+
+5. The dashboard will display:
+   - Predictions (class labels or segmentation masks)
+   - Quantitative metrics (e.g., accuracy, mIoU)
+   - Visualizations of the model outputs
+
+This interface enables an interactive evaluation of the **Custom CNN** and **ResNet-based models**, making it easier to benchmark their performance across tasks.
