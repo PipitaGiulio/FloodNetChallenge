@@ -43,7 +43,7 @@ Follow these steps to test any model:
 
 1. **Launch the Streamlit application** on your local machine:
    ```bash
-   streamlit run app.py
+   streamlit run streamlit_dashboard.py
    ```
 
 2. **Upload the chosen model** (e.g., the trained `.pth` or `.pt` file) using the dashboard’s upload interface.
